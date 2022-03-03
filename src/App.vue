@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+     <AddDesignerWear/>
+    <GetDesignerWear/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AddDesignerWear from './components/AddDesignerWear.vue'
+import GetDesignerWear from './components/GetDesignerWear.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AddDesignerWear,
+    GetDesignerWear,
   }
 }
 </script>
